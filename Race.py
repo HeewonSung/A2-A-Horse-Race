@@ -1,6 +1,7 @@
+from graphics import *
+from graphics import GraphWin, Line, Image, Point, update
 from random import randint
 import time
-from graphics import *
 from Dice import Dice
 
 class Horse:
