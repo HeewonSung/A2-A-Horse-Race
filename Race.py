@@ -6,8 +6,8 @@ from Dice import Dice
 
 class Horse:
     def __init__(self, speed, y, image_file, window):
-        self.x_pos = 50  # starting point
-        self.y_pos = y  # track
+        self.x_pos = 0  # starting point
+        self.y_pos = y # track
         self.image_file = image_file
         self.image = Image(Point(self.x_pos, self.y_pos), image_file)  # creating image
         self.window = window
